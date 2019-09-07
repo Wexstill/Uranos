@@ -1,0 +1,287 @@
+@import "_vars";
+
+body {
+  padding: 0;
+  margin: 0 ;
+  font-family: Arial;
+
+}
+header {
+  background: url(../img/bg.jpg) no-repeat center top / cover ;
+  height: 881px;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+.logo {
+  margin-top: 52px;
+}
+nav {
+  float: right;
+  margin-top: 65px;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  display: block;
+
+  li {
+    float: left;
+    display: block;
+    margin-right: 60px;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    width: 88px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    &:hover {
+      color: #060915;
+      background: $main_color;
+      border-radius: 5px;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+  }
+}
+
+.color_text {
+  color: $main_color;
+}
+
+.heading_title {
+  text-align: center;
+  margin-top: 193px;
+
+  p {
+    color: #ffffff;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    color: #ffffff;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    font-weight: normal;
+    letter-spacing: 2px;
+
+  }
+}
+
+.button {
+  background: $main_color;
+  color: #111111;
+  border-radius: 5px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 95px;
+}
+.team_bg {
+  background: $main_color;
+  height: 740px;
+}
+.team_title {
+  text-align: center;
+  padding-top: 125px;
+  letter-spacing: 0.1em;
+
+  h4 {
+    font-size: 40px;
+    color: $text_title_color;
+    margin: 0;
+  }
+
+  p {
+    color: $text_title_color;
+    font-size: 40px;
+    margin: 10px;
+  }
+}
+.team_item {
+  display: flex;
+  padding-top: 94px;
+
+  .team_item_one {
+    padding: 0 13px;
+    text-align: center;
+    h6 {
+      color: #191b29;
+      font-size: 25px;
+      margin: 10px;
+
+    }
+    p {
+      color: #5e531d ;
+      font-size: 15px;
+      margin: 0;
+      line-height: 1.4em;
+
+    }
+  }
+}
+.some_app_one {
+  background: #ffe347;
+  height: 268px;
+}
+.some_app_one_title {
+  padding-top: 45px;
+  width: 500px;
+  h3 {
+    font-size: 30px;
+    color: #191b29;
+    margin: 5px;
+  }
+  p {
+    color: #191b29;
+    font-size: 16px;
+    line-height: 1.9em;
+    margin: 10px;
+  }
+}
+.some_app_two {
+  background: #ffffff;
+  height: 503px;
+}
+.some_app_two_title {
+  width: 500px;
+  padding-top: 45px;
+  h3 {
+    font-size: 30px;
+    color: #191b29;
+    margin: 5px;
+  }
+  p {
+    color: #191b29;
+    font-size: 16px;
+    line-height: 1.9em;
+    margin: 10px;
+  }
+
+}
+.button_div{
+  padding-top: 60px;
+}
+.button_two {
+  background: #191b29;
+  color: #ffffff;
+  border-radius: 5px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.mac_book {
+  float: right;
+}
+.works {
+  background: url(../img/bg.jpg) no-repeat center / cover;
+  height: 740px;
+}
+.works_title {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+  h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+  p {
+    font-size: 35px;
+    margin: 10px;
+  }
+}
+.work_one {
+  width: 270px;
+  padding: 0 13px;
+  text-align: center;
+  h6 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+  }
+  p {
+    color: #9ea0a8;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 1.4em;
+  }
+}
+.works_item {
+  display: flex;
+  padding-top: 75px;
+}
+.button_three {
+  background: $main_color;
+  color: #111111;
+  border-radius: 5px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 95px;
+}
+.footer {
+  background: #191b29;
+  height: 7 92px;
+}
+.footer_title {
+  display: flex;
+  padding: 0 13px;
+  text-align: center;
+
+}
+.footer_title_one {
+  padding-top: 140px;
+  font-size: 14px;
+  color: white;
+  width: 1021px;
+}
+.footer_and {
+  color: #a3a9be;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 150px;
+  line-height: 1.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
