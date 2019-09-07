@@ -35,13 +35,12 @@ nav {
     width: 88px;
     height: 20px;
     margin: 0 auto;
-    text-align: center; }
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px; }
     .menu a:hover {
       color: #060915;
-      background: #ffd800;
-      border-radius: 5px;
-      text-transform: uppercase;
-      padding: 5px; }
+      background: #ffd800; }
 
 .color_text {
   color: #ffd800; }
@@ -58,26 +57,24 @@ nav {
   .heading_title h2 {
     color: #ffffff;
     font-size: 50px;
-    padding: 0;
+    padding: 15px 0 0 0;
     margin: 0;
-    padding-top: 15px;
     font-weight: normal;
     letter-spacing: 2px; }
 
-.button {
+.button, .button_three {
   background: #ffd800;
   color: #111111;
   border-radius: 5px;
   display: block;
   width: 240px;
   padding: 20px 0;
-  margin: 0 auto;
+  margin: 95px auto 0 auto;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
-  margin-top: 95px; }
+  font-size: 18px; }
 
 .team_bg {
   background: #ffd800;
@@ -197,20 +194,6 @@ nav {
 .works_item {
   display: flex;
   padding-top: 75px; }
-
-.button_three {
-  background: #ffd800;
-  color: #111111;
-  border-radius: 5px;
-  display: block;
-  width: 240px;
-  padding: 20px 0;
-  margin: 95px auto 0 auto;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 18px; }
 
 .footer {
   background: #191b29; }
